@@ -1,50 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>Multivocal literature review on Developer Experience</section>
+        <section>
+          For some time I’ve had this concept and/or idea that I haven’t been
+          able to explain or put into words
+        </section>
+        <section>
+          What is DX?<br /><br />How can understanding it help to create better
+          working conditions and therefore also better software?
+        </section>
+        <section>
+          <img src="lib/img/dx-social-technical.jpg" />
+          <p>(Fagerholm, 2015)</p>
+        </section>
+        <section>
+          <img src="lib/img/dx-conceptual.jpg" />
+          <p>(Fagerholm & Münch, 2015)</p>
+        </section>
+        <section>
+          HCI ➡ UX ➡ DX
+		</section>
+		<section>
+			<img src="lib/img/sources.png" />
+		</section>
+		<section>
+			<img src="lib/img/object-under-study.jpg" />
+		</section>
+		<section>
+			<img src="lib/img/factors-that-improve-worsen-the-dx.jpg" />
+		</section>
+        <section>
+          Voice of the Developer
+        </section>
+        <section>
+          <h1>Sources</h1>
+          <ul>
+            <li>
+              Fagerholm, F. (2015). Software developer experience: Case studies
+              in lean-agile and open source environments (Doctoral dissertation,
+              University of Helsinki). Retrieved from
+              http://urn.fi/URN:ISBN:978-951-51-1747-2
+            </li>
+            <li>
+              Fagerholm, F., & Münch, J. (2013). Developer experience: Concept
+              and definition. CoRR, abs/1312.1452. arXiv: 1312.1452. Retrieved
+              from http://arxiv.org/abs/1312.1452
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
 
-		<script src="js/reveal.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        hash: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/notes/notes.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
