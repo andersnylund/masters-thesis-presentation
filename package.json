@@ -1,9 +1,8 @@
 {
-  "name": "reveal.js",
+  "name": "masters-thesis-presentation",
   "version": "3.9.2",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
-  "subdomain": "revealjs",
+  "description": "Slides for presentation of master's thesis",
+  "homepage": "http://masters-thesis-presentation.andersnylund.com",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
@@ -11,13 +10,12 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Anders Nylund",
+    "web": "https://andersnylund.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/andersnylund/masters-thesis-presentation.git"
   },
   "engines": {
     "node": ">=9.0.0"

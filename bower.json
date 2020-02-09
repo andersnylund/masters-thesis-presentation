@@ -1,19 +1,18 @@
 {
-  "name": "reveal.js",
+  "name": "masters-thesis-presentation",
   "version": "3.9.2",
   "main": [
     "js/reveal.js",
     "css/reveal.css"
   ],
-  "homepage": "http://revealjs.com",
+  "homepage": "https://masters-thesis-presentation.andersnylund.com",
   "license": "MIT",
-  "description": "The HTML Presentation Framework",
   "authors": [
-    "Hakim El Hattab <hakim.elhattab@gmail.com>"
+    "Anders Nylund"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/andersnylund/masters-thesis-presentation.git"
   },
   "ignore": [
     "**/.*",
